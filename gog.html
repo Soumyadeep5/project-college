@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Avengers
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 2000  // 2 seconds
+            });
+
+            $(document).ready(function(){
+                $("#b1").hover(function(){
+                    $("#ts1").fadeIn(1500);
+                });
+            });
+            $(document).ready(function(){
+                $("#i1").click(function(){
+                    $("#panel1").slideToggle("slow");
+                });
+            });
+
+
+            $(document).ready(function(){
+                $("#b2").hover(function (){
+                    $("#ts2").fadeIn(1500);
+                });
+            });
+            $(document).ready(function(){
+                $("#i2").click(function(){
+                    $("#panel2").slideToggle("slow");
+                });
+            });
+        </script>
+        <style>
+            #body{
+                background-image: linear-gradient(black,rgb(76, 8, 107),red);
+            }
+        </style>
+    </head>
+    <body>
+        <div style="padding: 20px;">
+            <img src="avengers.jpg" style="width: 100%; box-shadow: 4px 4px 6px black;">
+        </div>
+        <div style="" id="body">
+            <table style="width: 100%;">
+                <tr id="b1">
+                    <td><div style="width: 700px;height: 100px;padding: 20px;"><center><button type="button" class="btn btn-warning" style="" id=""><h4 style="font-family: fantasy;">GUARDIANS OF THE GALAXY</h4></button></center></div>
+                        <div style="width: 700px; height: 300px;padding: 20px;"><center><button type="button" class="btn btn-primary" style="" id="i1"><h4 style="font-family: fantasy;"> Movie Info</h4></button></center><div id="panel1" style="display: none; color: blanchedalmond;">In 1988, following his mother's death, a young Peter Quill is abducted from Earth by a group of alien thieves and smugglers called the Ravagers led by Yondu Udonta. Twenty-six years later on the abandoned planet Morag, Quill steals a mysterious orb, but is attacked by forces of the fanatical Kree renegade, Ronan the Accuser. Although Quill escapes with the orb, Yondu discovers his theft and issues a bounty for his capture, while Ronan sends the assassin Gamora after the orb.</div></div></td>
+                    <td><img src="gog.jpg" style="width: 600px;height: 400px; padding: 20px; float: center;display: none;" id="ts1"></td>
+                </tr>
+                <tr id="b2">
+                    <td><img src="gog2.jpg" style="width: 600px;height: 400px; padding: 20px; float: right;display: none;" id="ts2"></td>
+                    <td><div style="width: 700px;height: 100px;padding: 20px;"><center><button type="button" class="btn btn-warning" style="" id=""><h4 style="font-family: fantasy;">GUARDIANS OF THE GALAXY 2</h4></button></center></div>
+                        <div style="width: 700px; height: 300px;padding: 20px;"><center><button type="button" class="btn btn-primary" style="" id="i2"><h4 style="font-family: fantasy;"> Movie Info</h4></button></center><div id="panel2" style="display: none; color: blanchedalmond;">In 2014, Peter Quill, Gamora, Drax, Rocket, and Baby Groot are renowned as the Guardians of the Galaxy. Ayesha, leader of the Sovereign race, has the Guardians protect valuable batteries from an inter-dimensional monster in exchange for Gamora's estranged sister Nebula, who was caught attempting to steal the batteries. After Rocket steals the batteries for himself, the Sovereign attacks the Guardians' ship with a fleet of drones. The drones are destroyed by a mysterious figure, and the Guardians crash-land on a nearby planet. There, this figure reveals himself as Quill's father, Ego, and invites Quill, Gamora, and Drax to his home planet. Rocket and Groot remain behind to repair the ship and guard Nebula.</div></div></td>
+                </tr>
+                
+                </table>
+        </div>
+
+
+        <div style="padding-top: 80px; background-color: rgb(48, 48, 51); color: white;">
+            <table style="width: 100%;">
+                <tr>
+                    <td><h2 style="font-family:fantasy; font-size: 120px;padding: 20px;padding-left: 100px;"><i>AVENGERS</i></h2></td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td colspan="4"><h5>FOLLOW US</h5></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 15px;"><i class="fa fa-facebook-square"></i></td>
+                                <td style="padding: 15px;"><i class="fa fa-twitter"></i></td>
+                                <td style="padding: 15px;"><i class="fa fa-instagram"></i></td>
+                                <td style="padding: 15px;"><i class="fa fa-tumblr"></i></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 15px;"><i class="fa fa-youtube-play"></i></td>
+                                <td style="padding: 15px;"><i class="fa fa-snapchat-ghost"></i></td>
+                                <td style="padding: 15px;"><i class="fa fa-pinterest"></i></td>
+                                <td style="padding: 15px;"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr></table>
+                <table style="text-align: center; width: 100%;padding-top: 30pxs;">
+                    <tr>
+                        <td>Terms of Use</td>
+                        <td>Privacy Policy</td>
+                        <td>Your California Privacy Rights</td>
+                        <td>Do Not Sell My Info</td>
+                        <td>Childrens Online Privacy Policy</td>
+                        <td>Licence Agreement</td>
+                        <td>Interset-Based Ads</td>
+                        <td>Marvel Insider Terms</td>
+                    </tr>
+                </table>
+                <table style="text-align: center; width: 100%;">
+                <tr>
+                    <td colspan="2" style="padding: 20px;"><center><i class="fa fa-copyright"></i> 2020 MARVEL</center></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

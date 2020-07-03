@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Avengers
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#b1").hover(function(){
+                    $("#ts1").fadeIn(1500);
+                });
+            });
+            $(document).ready(function(){
+                $("#i1").click(function(){
+                    $("#panel1").slideToggle("slow");
+                });
+            });
+
+        </script>
+        <style>
+            #body{
+                background-image: linear-gradient(black,rgb(76, 8, 107),red);
+            }
+        </style>
+    </head>
+    <body>
+        <div style="padding: 20px;">
+            <img src="avengers.jpg" style="width: 100%; box-shadow: 4px 4px 6px black;">
+        </div>
+        <div style="" id="body">
+            <table style="width: 100%;">
+                <tr id="b1">
+                    <td><div style="width: 700px;height: 100px;padding: 20px;"><center><button type="button" class="btn btn-warning" style="" id=""><h4 style="font-family: fantasy;"> BLACK PANTHER (2018)</h4></button></center></div>
+                        <div style="width: 700px; height: 300px;padding: 20px;"><center><button type="button" class="btn btn-primary" style="" id="i1"><h4 style="font-family: fantasy;"> Movie Info</h4></button></center><div id="panel1" style="display: none; color: blanchedalmond;">After the death of his father, T'Challa returns home to the African nation of Wakanda to take his rightful place as king. When a powerful enemy suddenly reappears, T'Challa's mettle as king -- and as Black Panther -- gets tested when he's drawn into a conflict that puts the fate of Wakanda and the entire world at risk. Faced with treachery and danger, the young king must rally his allies and release the full power of Black Panther to defeat his foes and secure the safety of his people.</div></div></td>
+                    <td><img src="bp.jpg" style="width: 620px;height: 400px; padding: 20px; float: center;display: none;" id="ts1"></td>
+                </tr>
+                
+                </table>
+        </div>
+
+
+        <div style="padding-top: 80px; background-color: rgb(48, 48, 51); color: white;">
+            <table style="width: 100%;">
+                <tr>
+                    <td><h2 style="font-family:fantasy; font-size: 120px;padding: 20px;padding-left: 100px;"><i>AVENGERS</i></h2></td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td colspan="4"><h5>FOLLOW US</h5></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 15px;"><i class="fa fa-facebook-square"></i></td>
+                                <td style="padding: 15px;"><i class="fa fa-twitter"></i></td>
+                                <td style="padding: 15px;"><i class="fa fa-instagram"></i></td>
+                                <td style="padding: 15px;"><i class="fa fa-tumblr"></i></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 15px;"><i class="fa fa-youtube-play"></i></td>
+                                <td style="padding: 15px;"><i class="fa fa-snapchat-ghost"></i></td>
+                                <td style="padding: 15px;"><i class="fa fa-pinterest"></i></td>
+                                <td style="padding: 15px;"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr></table>
+                <table style="text-align: center; width: 100%;padding-top: 30pxs;">
+                    <tr>
+                        <td>Terms of Use</td>
+                        <td>Privacy Policy</td>
+                        <td>Your California Privacy Rights</td>
+                        <td>Do Not Sell My Info</td>
+                        <td>Childrens Online Privacy Policy</td>
+                        <td>Licence Agreement</td>
+                        <td>Interset-Based Ads</td>
+                        <td>Marvel Insider Terms</td>
+                    </tr>
+                </table>
+                <table style="text-align: center; width: 100%;">
+                <tr>
+                    <td colspan="2" style="padding: 20px;"><center><i class="fa fa-copyright"></i> 2020 MARVEL</center></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
